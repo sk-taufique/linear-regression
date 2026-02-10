@@ -29,4 +29,6 @@ plt.title("Student Score Prediction using Linear Regression")
 plt.show()
 hours = [[7]]
 predicted_marks = model.predict(hours)
-predicted_marksprint("Predicted marks for 7 hours:", predicted_marks)
+predicted_marks
+print("Predicted marks for 7 hours:", predicted_marks)
+plt.show()
